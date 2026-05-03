@@ -1,2 +1,276 @@
-# mcfill_morning_brief
-Automated news intelligence pipeline for McFill Media. Fetches daily finance &amp; luxury news, generates AI summaries via Gemini, and distributes a structured email digest.
+# McFill Morning Brief — Complete Setup Guide
+# Built by Rushil · McFill Media AI Apps & Automation
+
+==============================================================
+WHAT THIS BOT DOES
+==============================================================
+
+Every morning at 7:00 AM GST, automatically:
+  1. Pulls articles from 9 RSS feeds (Reuters, Gulf News, Yahoo Finance, Vogue Arabia, etc.)
+  2. Filters duplicates and short/low-quality articles
+  3. Summarises each story in 2 editorial sentences using Google Gemini AI
+  4. Runs 5 QA checks on the assembled digest
+  5. Sends a formatted HTML email to the editorial team
+  6. Logs every run to bot_run.log and run_history.json
+
+No button. No human trigger. Fully automated.
+
+==============================================================
+WHAT WAS FIXED FROM THE ORIGINAL
+==============================================================
+
+TWO bugs were fixed:
+
+BUG 1 — FileNotFoundError: config.yaml
+  Original code:   open("config.yaml", "r")
+  Problem:         Python looked for config.yaml in whatever folder
+                   your terminal was open in — not where app.py lives.
+  Fix applied:     config_path = Path(__file__).parent / "config.yaml"
+                   Now it always finds config.yaml next to app.py,
+                   regardless of where you run the command from.
+
+BUG 2 — FutureWarning / deprecated SDK
+  Original code:   import google.generativeai as genai
+                   genai.configure(api_key=...)
+                   model = genai.GenerativeModel(model_name)
+                   response = model.generate_content(prompt)
+  Problem:         Google deprecated the google-generativeai package.
+                   It will stop working and no longer receives updates.
+  Fix applied:     from google import genai
+                   client = genai.Client(api_key=...)
+                   response = client.models.generate_content(model=..., contents=...)
+
+==============================================================
+YOUR FINAL FOLDER STRUCTURE
+==============================================================
+
+C:\Users\rushi\mcfill_newsflow\
+  app.py            ← main bot (UPDATED)
+  config.yaml       ← your credentials and settings (fill this in)
+  requirements.txt  ← python dependencies (UPDATED)
+  .gitignore        ← protects your API key from GitHub (NEW)
+  SETUP_GUIDE.txt   ← this file
+
+Auto-generated after first run:
+  bot_run.log       ← detailed log of every run
+  run_history.json  ← last 30 run summaries in JSON
+
+==============================================================
+STEP 1 — PLACE ALL FILES IN THE SAME FOLDER
+==============================================================
+
+Download all files and put them all in:
+  C:\Users\rushi\mcfill_newsflow\
+
+IMPORTANT: app.py and config.yaml must be in the SAME folder.
+
+==============================================================
+STEP 2 — FILL IN YOUR CREDENTIALS IN config.yaml
+==============================================================
+
+Open config.yaml in Notepad or VS Code.
+
+--- GEMINI API KEY ---
+
+  gemini:
+    api_key: "AIzaSy_YOUR_GEMINI_KEY_HERE"   <-- replace this
+
+  How to get your Gemini key (free, no credit card needed):
+    1. Go to https://aistudio.google.com
+    2. Sign in with your Google account
+    3. Click "Get API Key" → "Create API Key"
+    4. Copy the key — it starts with AIzaSy...
+    5. Paste it between the quotes in config.yaml
+
+--- GMAIL CREDENTIALS ---
+
+  email:
+    sender_email: "your_gmail@gmail.com"           <-- your Gmail address
+    sender_app_password: "your_16char_app_password" <-- NOT your Gmail password (see below)
+    recipient_email: "editorial_team@mcfillmedia.com" <-- who gets the digest
+
+  How to get a Gmail App Password (REQUIRED — regular password won't work):
+    1. Enable 2-Factor Authentication on your Google account first
+       → https://myaccount.google.com/security
+    2. Go to https://myaccount.google.com/apppasswords
+    3. Click "Create a new app password"
+    4. Name it "McFill Morning Brief" (or anything)
+    5. Copy the 16-character password shown (e.g. abcd efgh ijkl mnop)
+       Spaces don't matter — paste it as-is
+    6. Paste into sender_app_password in config.yaml
+
+  Example of a filled-in config.yaml:
+
+    gemini:
+      api_key: "AIzaSyABCDEFGHIJKLMNOPQRSTUVWXYZ123456"
+      model: "gemini-1.5-flash"
+
+    email:
+      sender_email: "rushil@gmail.com"
+      sender_app_password: "abcd efgh ijkl mnop"
+      recipient_email: "editorial_team@mcfillmedia.com"
+      brand_name: "McFill Media"
+      accent_color: "#C9A84C"
+
+==============================================================
+STEP 3 — INSTALL / UPDATE PYTHON PACKAGES
+==============================================================
+
+Open Command Prompt (search "cmd" in Windows Start menu).
+
+Run these commands ONE AT A TIME:
+
+  pip uninstall google-generativeai -y
+
+  pip install google-genai feedparser schedule pyyaml --upgrade
+
+Wait for each to finish before running the next.
+
+You should see "Successfully installed..." messages.
+
+==============================================================
+STEP 4 — VERIFY PYTHON IS WORKING
+==============================================================
+
+In Command Prompt, run:
+
+  python --version
+
+You should see Python 3.10 or higher. If you see an error,
+download Python from https://python.org/downloads
+
+==============================================================
+STEP 5 — TEST RUN (run once immediately)
+==============================================================
+
+In Command Prompt:
+
+  cd C:\Users\rushi\mcfill_newsflow
+  python app.py --run-now
+
+What you should see in the terminal:
+
+  2026-05-03 16:05:52 [INFO] Running pipeline immediately (--run-now flag)...
+  2026-05-03 16:05:52 [INFO] ============================================================
+  2026-05-03 16:05:52 [INFO] McFill Morning Brief — starting run
+  2026-05-03 16:05:52 [INFO] ============================================================
+  2026-05-03 16:05:52 [INFO] Fetching: Reuters Business
+  2026-05-03 16:05:53 [INFO]   Got 3 articles from Reuters Business
+  2026-05-03 16:05:53 [INFO] Fetching: Reuters Finance
+  ...
+  2026-05-03 16:06:10 [INFO] Total articles fetched: 22
+  2026-05-03 16:06:10 [INFO] Summarising 22 articles with Gemini (gemini-1.5-flash)...
+  2026-05-03 16:06:10 [INFO]   [1/22] Oil prices rise amid Middle East tensions...
+  ...
+  2026-05-03 16:06:45 [INFO] QA passed — digest is ready to send
+  2026-05-03 16:06:45 [INFO] Sending digest to editorial_team@mcfillmedia.com...
+  2026-05-03 16:06:46 [INFO] Email sent successfully.
+  2026-05-03 16:06:46 [INFO] Run report saved to run_history.json
+  2026-05-03 16:06:46 [INFO] Run complete.
+
+Check your inbox — the email should arrive within seconds.
+
+==============================================================
+STEP 6 — START THE DAILY 7AM SCHEDULER
+==============================================================
+
+Once the test run works, start the scheduler:
+
+  cd C:\Users\rushi\mcfill_newsflow
+  python app.py --schedule
+
+You will see:
+
+  Scheduler started. Pipeline will run daily at 07:00 GST.
+  Press Ctrl+C to stop.
+
+IMPORTANT: Leave this terminal window open and your computer on.
+The bot needs the terminal running to execute at 7am.
+
+To stop the scheduler: press Ctrl + C in the terminal.
+
+To change the run time: edit run_time in config.yaml
+  settings:
+    run_time: "07:00"   <-- change to any time in HH:MM (24h format)
+
+Then restart with python app.py --schedule
+
+==============================================================
+TROUBLESHOOTING
+==============================================================
+
+ERROR: FileNotFoundError: config.yaml
+  CAUSE:  You ran python app.py from the wrong folder
+  FIX:    Run "cd C:\Users\rushi\mcfill_newsflow" first, then run app.py
+          This is fixed in the new app.py but the cd is still good practice
+
+ERROR: FutureWarning: google.generativeai deprecated
+  CAUSE:  Old package still installed
+  FIX:    Run: pip uninstall google-generativeai -y
+          Then: pip install google-genai --upgrade
+
+ERROR: InvalidArgument / API key invalid
+  CAUSE:  Wrong Gemini API key in config.yaml
+  FIX:    Make sure the key starts with "AIzaSy" and is inside quotes
+          Get a fresh key from https://aistudio.google.com
+
+ERROR: SMTPAuthenticationError
+  CAUSE:  Using your main Gmail password instead of an App Password
+  FIX:    Create an App Password at https://myaccount.google.com/apppasswords
+          You must have 2FA enabled first
+
+ERROR: Quota exceeded / 429
+  CAUSE:  Hit Gemini free tier rate limit (60 requests/minute)
+  FIX:    The bot auto-retries with backoff. Usually resolves itself.
+          Or switch model in config.yaml: model: "gemini-2.0-flash"
+
+ERROR: No articles fetched
+  CAUSE:  RSS feeds temporarily down
+  FIX:    Check bot_run.log — each feed logs individually
+          Try again in 30 minutes
+
+ERROR: QA failed — No luxury/finance articles
+  CAUSE:  Those specific feeds returned no usable articles today
+  FIX:    Check bot_run.log for which feeds failed
+          Try python app.py --run-now again — feeds rotate content
+
+==============================================================
+CHANGING SETTINGS IN config.yaml
+==============================================================
+
+Change run time:
+  settings:
+    run_time: "06:30"   # any HH:MM in 24h format
+
+Change how many articles per feed:
+  settings:
+    max_articles_per_feed: 5   # default is 3
+
+Change Gemini model:
+  gemini:
+    model: "gemini-2.0-flash"      # fastest, latest
+    model: "gemini-1.5-flash"      # default, reliable
+    model: "gemini-1.5-pro"        # higher quality, slower
+
+Add a new RSS feed:
+  feeds:
+    - name: "Bloomberg"
+      url: "https://feeds.bloomberg.com/markets/news.rss"
+      category: "Finance"
+
+==============================================================
+BEFORE UPLOADING TO GITHUB
+==============================================================
+
+The .gitignore file is already set up to protect:
+  - config.yaml       (contains your API key and password)
+  - bot_run.log
+  - run_history.json
+
+Upload a config.yaml.example file instead with placeholder values
+so others can use the project without your credentials going public.
+
+==============================================================
+McFill Morning Brief — Built by Rushil
+McFill Media AI Apps & Automation Portfolio
+==============================================================
