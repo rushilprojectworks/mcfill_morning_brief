@@ -1,0 +1,5 @@
+config.yaml
+bot_run.log
+run_history.json
+__pycache__/
+*.pyc

@@ -1,0 +1,68 @@
+gemini:
+  api_key: "API_KEY_GEMINI_AI"
+
+  # gemini-2.5-flash: free tier, 10 RPM, 500 RPD — use this (1.5-flash is discontinued)
+  # gemini-2.0-flash: free tier, 10 RPM, 1500 RPD — alternative option
+  model: "gemini-2.5-flash"
+
+  # Must match the model's free-tier RPM limit (leave 1 below ceiling as safety margin)
+  # gemini-2.5-flash → 10 RPM → set 9
+  # gemini-2.0-flash → 10 RPM → set 9
+  requests_per_minute: 9
+
+email:
+  sender_email: "ABC@gmail.com"
+  sender_app_password: "SECRET_PASSWORD"
+  recipient_email: "XYZ@gmail.com"
+  brand_name: "McFill Media"
+  accent_color: "#C9A84C"
+
+settings:
+  run_time: "07:00"
+  max_articles_per_feed: 3
+  min_article_words: 30
+  min_articles_to_send: 3   # lowered from 4 — some feeds are intermittently down
+
+# ── Feed health status (as of May 2026) ──────────────────────────────────────
+# WORKING:   Arab News Business, Luxe Digital, Business of Fashion
+# DEAD/SLOW: Reuters (DNS fails), Yahoo Finance (empty), Gulf News (bad XML),
+#            Vogue Arabia (bad XML)
+# Replaced dead feeds with reliable alternatives below.
+feeds:
+  # ── Finance ────────────────────────────────────────────────────────────────
+  - name: "Arab News Business"
+    url: "https://www.arabnews.com/taxonomy/term/9/feed"
+    category: "Finance"
+
+  - name: "BBC Business"
+    url: "https://feeds.bbci.co.uk/news/business/rss.xml"
+    category: "Finance"
+
+  - name: "CNBC Finance"
+    url: "https://www.cnbc.com/id/10000664/device/rss/rss.html"
+    category: "Finance"
+
+  - name: "Bloomberg Markets"
+    url: "https://feeds.bloomberg.com/markets/news.rss"
+    category: "Finance"
+
+  - name: "Investing.com News"
+    url: "https://www.investing.com/rss/news.rss"
+    category: "Finance"
+
+  # ── Luxury ─────────────────────────────────────────────────────────────────
+  - name: "Business of Fashion"
+    url: "https://www.businessoffashion.com/feed"
+    category: "Luxury"
+
+  - name: "Luxe Digital"
+    url: "https://luxe.digital/feed/"
+    category: "Luxury"
+
+  - name: "Robb Report"
+    url: "https://robbreport.com/feed/"
+    category: "Luxury"
+
+  - name: "The Guardian Fashion"
+    url: "https://www.theguardian.com/fashion/rss"
+    category: "Luxury"

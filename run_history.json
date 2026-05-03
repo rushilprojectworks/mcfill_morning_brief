@@ -1,0 +1,183 @@
+[
+  {
+    "timestamp": "2026-05-03T18:26:48.103987",
+    "articles": 7,
+    "qa_passed": false,
+    "qa_issues": [
+      "Too many failed summaries: 7/7"
+    ],
+    "email_sent": false,
+    "sources": [
+      "Arab News Business",
+      "Luxe Digital",
+      "Business of Fashion"
+    ],
+    "failed_summaries": 7,
+    "ai_model": "gemini"
+  },
+  {
+    "timestamp": "2026-05-03T18:26:48.108631",
+    "articles": 7,
+    "qa_passed": false,
+    "qa_issues": [
+      "Too many failed summaries: 7/7"
+    ],
+    "email_sent": false,
+    "sources": [
+      "Arab News Business",
+      "Luxe Digital",
+      "Business of Fashion"
+    ],
+    "failed_summaries": 7,
+    "ai_model": "gemini"
+  },
+  {
+    "timestamp": "2026-05-03T18:36:37.299224",
+    "articles": 7,
+    "qa_passed": false,
+    "qa_issues": [
+      "Too many failed summaries: 7/7"
+    ],
+    "email_sent": false,
+    "sources": [
+      "Arab News Business",
+      "Business of Fashion",
+      "Luxe Digital"
+    ],
+    "failed_summaries": 7,
+    "ai_model": "gemini"
+  },
+  {
+    "timestamp": "2026-05-03T18:36:37.338227",
+    "articles": 7,
+    "qa_passed": false,
+    "qa_issues": [
+      "Too many failed summaries: 7/7"
+    ],
+    "email_sent": false,
+    "sources": [
+      "Arab News Business",
+      "Business of Fashion",
+      "Luxe Digital"
+    ],
+    "failed_summaries": 7,
+    "ai_model": "gemini"
+  },
+  {
+    "timestamp": "2026-05-03T18:42:16.445956",
+    "articles": 7,
+    "qa_passed": false,
+    "qa_issues": [
+      "Too many failed summaries: 7/7"
+    ],
+    "email_sent": false,
+    "sources": [
+      "Arab News Business",
+      "Business of Fashion",
+      "Luxe Digital"
+    ],
+    "failed_summaries": 7,
+    "ai_model": "gemini"
+  },
+  {
+    "timestamp": "2026-05-03T18:42:16.481295",
+    "articles": 7,
+    "qa_passed": false,
+    "qa_issues": [
+      "Too many failed summaries: 7/7"
+    ],
+    "email_sent": false,
+    "sources": [
+      "Arab News Business",
+      "Business of Fashion",
+      "Luxe Digital"
+    ],
+    "failed_summaries": 7,
+    "ai_model": "gemini"
+  },
+  {
+    "timestamp": "2026-05-03T18:49:52.705242",
+    "articles": 7,
+    "qa_passed": false,
+    "qa_issues": [
+      "Too many failed summaries: 7/7"
+    ],
+    "email_sent": false,
+    "sources": [
+      "Business of Fashion",
+      "Arab News Business",
+      "Luxe Digital"
+    ],
+    "failed_summaries": 7,
+    "ai_model": "gemini"
+  },
+  {
+    "timestamp": "2026-05-03T18:49:52.743448",
+    "articles": 7,
+    "qa_passed": false,
+    "qa_issues": [
+      "Too many failed summaries: 7/7"
+    ],
+    "email_sent": false,
+    "sources": [
+      "Business of Fashion",
+      "Arab News Business",
+      "Luxe Digital"
+    ],
+    "failed_summaries": 7,
+    "ai_model": "gemini"
+  },
+  {
+    "timestamp": "2026-05-03T21:52:48.682312",
+    "articles": 7,
+    "qa_passed": false,
+    "qa_issues": [
+      "Too many failed summaries: 7/7",
+      "No Finance articles in digest",
+      "No Luxury articles in digest"
+    ],
+    "email_sent": false,
+    "sources": [
+      "Business of Fashion",
+      "Luxe Digital",
+      "Arab News Business"
+    ],
+    "failed_summaries": 7,
+    "ai_model": "gemini-1.5-flash"
+  },
+  {
+    "timestamp": "2026-05-03T22:01:15.029487",
+    "articles_fetched": 10,
+    "failed_summaries": 10,
+    "qa_passed": false,
+    "qa_issues": [
+      "Too many failed summaries: 10/10",
+      "No Finance articles with valid summaries",
+      "No Luxury articles with valid summaries"
+    ],
+    "email_sent": false,
+    "ai_model": "gemini-1.5-flash",
+    "sources": [
+      "Bloomberg Markets",
+      "Business of Fashion",
+      "Luxe Digital",
+      "The Guardian Fashion"
+    ]
+  },
+  {
+    "timestamp": "2026-05-03T22:07:03.239502",
+    "articles_fetched": 13,
+    "failed_summaries": 0,
+    "qa_passed": true,
+    "qa_issues": [],
+    "email_sent": true,
+    "ai_model": "gemini-2.5-flash",
+    "sources": [
+      "Arab News Business",
+      "Bloomberg Markets",
+      "Business of Fashion",
+      "Luxe Digital",
+      "The Guardian Fashion"
+    ]
+  }
+]

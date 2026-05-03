@@ -1,0 +1,685 @@
+2026-05-03 16:05:52,149 [INFO] Running pipeline immediately (--run-now flag)...
+2026-05-03 16:05:52,153 [INFO] ============================================================
+2026-05-03 16:05:52,154 [INFO] McFill Morning Brief — starting run
+2026-05-03 16:05:52,155 [INFO] Time: 2026-05-03 16:05:52
+2026-05-03 16:05:52,155 [INFO] ============================================================
+2026-05-03 17:50:29,858 [INFO] Running pipeline immediately (--run-now flag)...
+2026-05-03 17:50:29,859 [INFO] ============================================================
+2026-05-03 17:50:29,859 [INFO] McFill Morning Brief — starting run
+2026-05-03 17:50:29,860 [INFO] Time: 2026-05-03 17:50:29
+2026-05-03 17:50:29,860 [INFO] ============================================================
+2026-05-03 18:21:27,240 [INFO] Running pipeline immediately (--run-now flag)...
+2026-05-03 18:21:27,240 [INFO] ============================================================
+2026-05-03 18:21:27,241 [INFO] McFill Morning Brief — starting run
+2026-05-03 18:21:27,241 [INFO] Time: 2026-05-03 18:21:27
+2026-05-03 18:21:27,242 [INFO] ============================================================
+2026-05-03 18:23:00,269 [INFO] Running pipeline immediately (--run-now flag)...
+2026-05-03 18:23:00,270 [INFO] ============================================================
+2026-05-03 18:23:00,270 [INFO] McFill Morning Brief — starting run
+2026-05-03 18:23:00,271 [INFO] Time: 2026-05-03 18:23:00
+2026-05-03 18:23:00,271 [INFO] ============================================================
+2026-05-03 18:23:00,310 [INFO] Fetching: Reuters Business
+2026-05-03 18:23:00,401 [WARNING]   Feed parse warning for Reuters Business: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 18:23:00,402 [INFO] Fetching: Reuters Finance
+2026-05-03 18:23:00,453 [WARNING]   Feed parse warning for Reuters Finance: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 18:23:00,454 [INFO] Fetching: Yahoo Finance
+2026-05-03 18:23:00,956 [INFO]   Got 0 articles from Yahoo Finance
+2026-05-03 18:23:00,959 [INFO] Fetching: Arab News Business
+2026-05-03 18:23:02,288 [INFO]   Got 3 articles from Arab News Business
+2026-05-03 18:23:02,289 [INFO] Fetching: Gulf News Business
+2026-05-03 18:23:03,003 [WARNING]   Feed parse warning for Gulf News Business: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 18:23:03,003 [INFO] Fetching: Vogue Arabia
+2026-05-03 18:23:03,644 [WARNING]   Feed parse warning for Vogue Arabia: <unknown>:2:0: not well-formed (invalid token)
+2026-05-03 18:23:03,645 [INFO] Fetching: Luxe Digital
+2026-05-03 18:23:04,069 [INFO]   Got 1 articles from Luxe Digital
+2026-05-03 18:23:04,070 [INFO] Fetching: Business of Fashion
+2026-05-03 18:23:05,082 [INFO]   Got 3 articles from Business of Fashion
+2026-05-03 18:23:05,082 [INFO] Fetching: Gulf News Lifestyle
+2026-05-03 18:23:05,813 [WARNING]   Feed parse warning for Gulf News Lifestyle: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 18:23:05,813 [INFO] Total articles fetched: 7
+2026-05-03 18:23:08,491 [INFO] Summarising 7 articles with Gemini (gemini-1.5-flash)...
+2026-05-03 18:23:08,491 [INFO]   [1/7] The best Ramadan decor set-ups on Instagram...
+2026-05-03 18:23:08,492 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:23:08,691 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:23:08,705 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:23:13,706 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:23:13,896 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:23:13,900 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:23:23,900 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:23:24,266 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:23:24,269 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:23:39,770 [INFO]   [2/7] UK banks stop trading Qatari riyals as diplomatic crisis mou...
+2026-05-03 18:23:39,771 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:23:39,977 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:23:39,981 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:23:44,981 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:23:45,411 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:23:45,415 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:23:55,416 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:23:55,792 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:23:55,795 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:24:11,299 [INFO]   [3/7] 4.8% FDI drop in Saudi Arabia last year...
+2026-05-03 18:24:11,299 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:24:11,727 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:24:11,732 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:24:16,734 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:24:17,097 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:24:17,103 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:24:27,103 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:24:27,274 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:24:27,277 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:24:42,778 [INFO]   [4/7] KAAI Pyramid Review: A Work Bag That Handles All Our Needs A...
+2026-05-03 18:24:42,780 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:24:43,128 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:24:43,132 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:24:48,133 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:24:48,543 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:24:48,549 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:24:58,550 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:24:58,902 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:24:58,906 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:25:14,407 [INFO]   [5/7] Coty’s Perfume Business Takes Another Knock With David Beckh...
+2026-05-03 18:25:14,408 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:25:14,606 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:25:14,610 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:25:19,611 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:25:19,807 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:25:19,810 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:25:29,814 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:25:30,182 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:25:30,188 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:25:45,689 [INFO]   [6/7] How Chanel Became the Hottest Brand in Fashion...
+2026-05-03 18:25:45,692 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:25:45,898 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:25:45,903 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:25:50,904 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:25:51,100 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:25:51,102 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:26:01,104 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:26:01,472 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:26:01,473 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:26:16,977 [INFO]   [7/7] Building Connection Through Luxury’s Sensory Evolution...
+2026-05-03 18:26:16,978 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:26:17,178 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:26:17,179 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:26:22,183 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:26:22,397 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:26:22,400 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:26:32,402 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:26:32,597 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:26:32,599 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:26:48,102 [WARNING] QA failed — 1 issue(s):
+2026-05-03 18:26:48,103 [WARNING]   - Too many failed summaries: 7/7
+2026-05-03 18:26:48,103 [WARNING] QA failed — email will not be sent.
+2026-05-03 18:26:48,107 [INFO] Run report saved to run_history.json
+2026-05-03 18:26:48,144 [INFO] Run report saved to run_history.json
+2026-05-03 18:26:48,148 [INFO] Run complete.
+
+2026-05-03 18:32:55,594 [INFO] Running pipeline immediately (--run-now flag)...
+2026-05-03 18:32:55,594 [INFO] ============================================================
+2026-05-03 18:32:55,595 [INFO] McFill Morning Brief — starting run
+2026-05-03 18:32:55,595 [INFO] Time: 2026-05-03 18:32:55
+2026-05-03 18:32:55,595 [INFO] ============================================================
+2026-05-03 18:32:55,625 [INFO] Fetching: Reuters Business
+2026-05-03 18:32:55,652 [WARNING]   Feed parse warning for Reuters Business: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 18:32:55,652 [INFO] Fetching: Reuters Finance
+2026-05-03 18:32:55,666 [WARNING]   Feed parse warning for Reuters Finance: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 18:32:55,666 [INFO] Fetching: Yahoo Finance
+2026-05-03 18:32:55,871 [INFO]   Got 0 articles from Yahoo Finance
+2026-05-03 18:32:55,871 [INFO] Fetching: Arab News Business
+2026-05-03 18:32:55,968 [INFO]   Got 3 articles from Arab News Business
+2026-05-03 18:32:55,968 [INFO] Fetching: Gulf News Business
+2026-05-03 18:32:56,406 [WARNING]   Feed parse warning for Gulf News Business: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 18:32:56,407 [INFO] Fetching: Vogue Arabia
+2026-05-03 18:32:56,747 [WARNING]   Feed parse warning for Vogue Arabia: <unknown>:2:0: not well-formed (invalid token)
+2026-05-03 18:32:56,749 [INFO] Fetching: Luxe Digital
+2026-05-03 18:32:56,920 [INFO]   Got 1 articles from Luxe Digital
+2026-05-03 18:32:56,920 [INFO] Fetching: Business of Fashion
+2026-05-03 18:32:57,619 [INFO]   Got 3 articles from Business of Fashion
+2026-05-03 18:32:57,620 [INFO] Fetching: Gulf News Lifestyle
+2026-05-03 18:32:58,121 [WARNING]   Feed parse warning for Gulf News Lifestyle: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 18:32:58,121 [INFO] Total articles fetched: 7
+2026-05-03 18:32:58,774 [INFO] Summarising 7 articles with Gemini (gemini-1.5-flash)...
+2026-05-03 18:32:58,775 [INFO]   [1/7] The best Ramadan decor set-ups on Instagram...
+2026-05-03 18:32:58,775 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:32:58,977 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:32:58,979 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:33:03,980 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:33:04,329 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:33:04,330 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:33:14,330 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:33:14,513 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:33:14,514 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:33:30,015 [INFO]   [2/7] UK banks stop trading Qatari riyals as diplomatic crisis mou...
+2026-05-03 18:33:30,015 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:33:30,203 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:33:30,204 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:33:35,205 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:33:35,379 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:33:35,379 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:33:45,380 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:33:45,733 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:33:45,735 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:34:01,236 [INFO]   [3/7] 4.8% FDI drop in Saudi Arabia last year...
+2026-05-03 18:34:01,237 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:34:01,406 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:34:01,408 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:34:06,409 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:34:06,597 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:34:06,598 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:34:16,599 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:34:16,957 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:34:16,959 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:34:32,462 [INFO]   [4/7] KAAI Pyramid Review: A Work Bag That Handles All Our Needs A...
+2026-05-03 18:34:32,464 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:34:32,811 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:34:32,812 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:34:37,817 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:34:37,992 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:34:37,994 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:34:47,995 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:34:48,177 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:34:48,178 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:35:03,679 [INFO]   [5/7] Coty’s Perfume Business Takes Another Knock With David Beckh...
+2026-05-03 18:35:03,680 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:35:03,892 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:35:03,893 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:35:08,894 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:35:09,109 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:35:09,111 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:35:19,112 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:35:19,300 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:35:19,302 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:35:34,803 [INFO]   [6/7] How Chanel Became the Hottest Brand in Fashion...
+2026-05-03 18:35:34,805 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:35:34,974 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:35:34,975 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:35:39,976 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:35:40,177 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:35:40,179 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:35:50,181 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:35:50,353 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:35:50,355 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:36:05,856 [INFO]   [7/7] Building Connection Through Luxury’s Sensory Evolution...
+2026-05-03 18:36:05,857 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:36:06,058 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:36:06,059 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:36:11,060 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:36:11,420 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:36:11,421 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:36:21,423 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:36:21,794 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 18:36:21,795 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:36:37,297 [WARNING] QA failed — 1 issue(s):
+2026-05-03 18:36:37,297 [WARNING]   - Too many failed summaries: 7/7
+2026-05-03 18:36:37,299 [WARNING] QA failed — email will not be sent.
+2026-05-03 18:36:37,337 [INFO] Run report saved to run_history.json
+2026-05-03 18:36:37,366 [INFO] Run report saved to run_history.json
+2026-05-03 18:36:37,367 [INFO] Run complete.
+
+2026-05-03 18:38:34,814 [INFO] Running pipeline immediately (--run-now flag)...
+2026-05-03 18:38:34,814 [INFO] ============================================================
+2026-05-03 18:38:34,814 [INFO] McFill Morning Brief — starting run
+2026-05-03 18:38:34,814 [INFO] Time: 2026-05-03 18:38:34
+2026-05-03 18:38:34,814 [INFO] ============================================================
+2026-05-03 18:38:34,839 [INFO] Fetching: Reuters Business
+2026-05-03 18:38:34,907 [WARNING]   Feed parse warning for Reuters Business: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 18:38:34,908 [INFO] Fetching: Reuters Finance
+2026-05-03 18:38:34,927 [WARNING]   Feed parse warning for Reuters Finance: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 18:38:34,927 [INFO] Fetching: Yahoo Finance
+2026-05-03 18:38:35,137 [INFO]   Got 0 articles from Yahoo Finance
+2026-05-03 18:38:35,137 [INFO] Fetching: Arab News Business
+2026-05-03 18:38:35,246 [INFO]   Got 3 articles from Arab News Business
+2026-05-03 18:38:35,246 [INFO] Fetching: Gulf News Business
+2026-05-03 18:38:35,686 [WARNING]   Feed parse warning for Gulf News Business: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 18:38:35,687 [INFO] Fetching: Vogue Arabia
+2026-05-03 18:38:35,980 [WARNING]   Feed parse warning for Vogue Arabia: <unknown>:2:0: not well-formed (invalid token)
+2026-05-03 18:38:35,980 [INFO] Fetching: Luxe Digital
+2026-05-03 18:38:36,142 [INFO]   Got 1 articles from Luxe Digital
+2026-05-03 18:38:36,143 [INFO] Fetching: Business of Fashion
+2026-05-03 18:38:36,993 [INFO]   Got 3 articles from Business of Fashion
+2026-05-03 18:38:36,993 [INFO] Fetching: Gulf News Lifestyle
+2026-05-03 18:38:37,499 [WARNING]   Feed parse warning for Gulf News Lifestyle: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 18:38:37,517 [INFO] Total articles fetched: 7
+2026-05-03 18:38:38,176 [INFO] Summarising 7 articles with Gemini (gemini-2.0-flash)...
+2026-05-03 18:38:38,177 [INFO]   [1/7] The best Ramadan decor set-ups on Instagram...
+2026-05-03 18:38:38,177 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:38:38,378 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:38:38,379 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:38:43,379 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:38:43,569 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:38:43,571 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:38:53,572 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:38:53,927 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:38:53,930 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:39:09,431 [INFO]   [2/7] UK banks stop trading Qatari riyals as diplomatic crisis mou...
+2026-05-03 18:39:09,432 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:39:09,609 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:39:09,610 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:39:14,612 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:39:14,789 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:39:14,790 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:39:24,791 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:39:25,131 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:39:25,132 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:39:40,633 [INFO]   [3/7] 4.8% FDI drop in Saudi Arabia last year...
+2026-05-03 18:39:40,634 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:39:40,829 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:39:40,831 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:39:45,831 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:39:46,005 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:39:46,006 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:39:56,007 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:39:56,173 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:39:56,176 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:40:11,677 [INFO]   [4/7] KAAI Pyramid Review: A Work Bag That Handles All Our Needs A...
+2026-05-03 18:40:11,678 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:40:12,061 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:40:12,063 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:40:17,064 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:40:17,411 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:40:17,413 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:40:27,413 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:40:27,748 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:40:27,751 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:40:43,252 [INFO]   [5/7] At the Met Gala, It’s All Eyes on the Bezoses...
+2026-05-03 18:40:43,253 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:40:43,438 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:40:43,440 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:40:48,441 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:40:48,623 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:40:48,624 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:40:58,624 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:40:58,822 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:40:58,827 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:41:14,328 [INFO]   [6/7] Coty’s Perfume Business Takes Another Knock With David Beckh...
+2026-05-03 18:41:14,329 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:41:14,511 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:41:14,512 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:41:19,513 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:41:19,687 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:41:19,689 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:41:29,690 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:41:29,885 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:41:29,886 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:41:45,388 [INFO]   [7/7] How Chanel Became the Hottest Brand in Fashion...
+2026-05-03 18:41:45,388 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:41:45,584 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:41:45,586 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:41:50,587 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:41:50,756 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:41:50,758 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:42:00,759 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:42:00,940 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:42:00,941 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:42:16,442 [WARNING] QA failed — 1 issue(s):
+2026-05-03 18:42:16,443 [WARNING]   - Too many failed summaries: 7/7
+2026-05-03 18:42:16,444 [WARNING] QA failed — email will not be sent.
+2026-05-03 18:42:16,480 [INFO] Run report saved to run_history.json
+2026-05-03 18:42:16,497 [INFO] Run report saved to run_history.json
+2026-05-03 18:42:16,497 [INFO] Run complete.
+
+2026-05-03 18:45:44,855 [INFO] Running pipeline immediately (--run-now flag)...
+2026-05-03 18:45:44,857 [INFO] ============================================================
+2026-05-03 18:45:44,857 [INFO] McFill Morning Brief — starting run
+2026-05-03 18:45:44,857 [INFO] Time: 2026-05-03 18:45:44
+2026-05-03 18:45:44,857 [INFO] ============================================================
+2026-05-03 18:45:44,863 [INFO] Fetching: Reuters Business
+2026-05-03 18:45:44,946 [WARNING]   Feed parse warning for Reuters Business: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 18:45:44,947 [INFO] Fetching: Reuters Finance
+2026-05-03 18:45:44,968 [WARNING]   Feed parse warning for Reuters Finance: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 18:45:44,968 [INFO] Fetching: Yahoo Finance
+2026-05-03 18:45:45,201 [INFO]   Got 0 articles from Yahoo Finance
+2026-05-03 18:45:45,201 [INFO] Fetching: Arab News Business
+2026-05-03 18:45:45,330 [INFO]   Got 3 articles from Arab News Business
+2026-05-03 18:45:45,330 [INFO] Fetching: Gulf News Business
+2026-05-03 18:45:45,880 [WARNING]   Feed parse warning for Gulf News Business: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 18:45:45,880 [INFO] Fetching: Vogue Arabia
+2026-05-03 18:45:46,996 [WARNING]   Feed parse warning for Vogue Arabia: text/html is not an XML media type
+2026-05-03 18:45:46,998 [INFO] Fetching: Luxe Digital
+2026-05-03 18:45:47,134 [INFO]   Got 1 articles from Luxe Digital
+2026-05-03 18:45:47,135 [INFO] Fetching: Business of Fashion
+2026-05-03 18:45:47,960 [INFO]   Got 3 articles from Business of Fashion
+2026-05-03 18:45:47,961 [INFO] Fetching: Gulf News Lifestyle
+2026-05-03 18:45:48,541 [WARNING]   Feed parse warning for Gulf News Lifestyle: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 18:45:48,541 [INFO] Total articles fetched: 7
+2026-05-03 18:45:49,579 [INFO] Summarising 7 articles with Gemini (gemini-2.0-flash)...
+2026-05-03 18:45:49,579 [INFO]   [1/7] The best Ramadan decor set-ups on Instagram...
+2026-05-03 18:45:49,580 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:45:49,825 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:45:49,828 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:45:54,829 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:45:55,019 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:45:55,024 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:46:05,024 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:46:05,401 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:46:05,404 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:46:24,405 [INFO]   [2/7] UK banks stop trading Qatari riyals as diplomatic crisis mou...
+2026-05-03 18:46:24,408 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:46:24,606 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:46:24,609 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:46:29,610 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:46:29,797 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:46:29,802 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:46:39,803 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:46:39,998 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:46:40,000 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:46:59,001 [INFO]   [3/7] 4.8% FDI drop in Saudi Arabia last year...
+2026-05-03 18:46:59,004 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:46:59,300 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:46:59,302 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:47:04,303 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:47:04,484 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:47:04,487 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:47:14,488 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:47:14,868 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:47:14,870 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:47:33,871 [INFO]   [4/7] KAAI Pyramid Review: A Work Bag That Handles All Our Needs A...
+2026-05-03 18:47:33,875 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:47:34,042 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:47:34,045 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:47:39,046 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:47:39,215 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:47:39,219 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:47:49,221 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:47:49,571 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:47:49,574 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:48:08,575 [INFO]   [5/7] At the Met Gala, It’s All Eyes on the Bezoses...
+2026-05-03 18:48:08,579 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:48:08,770 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:48:08,773 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:48:13,774 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:48:13,975 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:48:13,979 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:48:23,979 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:48:24,283 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:48:24,285 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:48:43,300 [INFO]   [6/7] Coty’s Perfume Business Takes Another Knock With David Beckh...
+2026-05-03 18:48:43,331 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:48:43,516 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:48:43,517 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:48:48,518 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:48:48,712 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:48:48,715 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:48:58,716 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:48:59,087 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:48:59,091 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:49:18,093 [INFO]   [7/7] How Chanel Became the Hottest Brand in Fashion...
+2026-05-03 18:49:18,096 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:49:18,285 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:49:18,290 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 18:49:23,291 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:49:23,483 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:49:23,488 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 18:49:33,489 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 18:49:33,697 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 18:49:33,699 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 18:49:52,701 [WARNING] QA failed — 1 issue(s):
+2026-05-03 18:49:52,704 [WARNING]   - Too many failed summaries: 7/7
+2026-05-03 18:49:52,705 [WARNING] QA failed — email will not be sent.
+2026-05-03 18:49:52,741 [INFO] Run report saved to run_history.json
+2026-05-03 18:49:52,765 [INFO] Run report saved to run_history.json
+2026-05-03 18:49:52,766 [INFO] Run complete.
+
+2026-05-03 21:47:23,875 [INFO] Running pipeline immediately (--run-now flag)...
+2026-05-03 21:47:23,875 [INFO] ============================================================
+2026-05-03 21:47:23,876 [INFO] McFill Morning Brief — starting run
+2026-05-03 21:47:23,876 [INFO] Time: 2026-05-03 21:47:23
+2026-05-03 21:47:23,877 [INFO] ============================================================
+2026-05-03 21:47:23,882 [INFO] Fetching: Reuters Business
+2026-05-03 21:47:23,954 [WARNING]   Skipping Reuters Business — parse error and no entries: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 21:47:23,956 [INFO] Fetching: Reuters Finance
+2026-05-03 21:47:23,992 [WARNING]   Skipping Reuters Finance — parse error and no entries: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 21:47:23,992 [INFO] Fetching: Yahoo Finance
+2026-05-03 21:47:24,324 [INFO]   Got 0 articles from Yahoo Finance
+2026-05-03 21:47:24,324 [INFO] Fetching: Arab News Business
+2026-05-03 21:47:24,425 [WARNING]   Skipping Arab News Business — parse error and no entries: <unknown>:2:1326: not well-formed (invalid token)
+2026-05-03 21:47:24,425 [INFO] Fetching: Gulf News Business
+2026-05-03 21:47:24,977 [WARNING]   Skipping Gulf News Business — parse error and no entries: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 21:47:24,977 [INFO] Fetching: Vogue Arabia
+2026-05-03 21:47:25,826 [WARNING]   Skipping Vogue Arabia — parse error and no entries: <unknown>:2:0: not well-formed (invalid token)
+2026-05-03 21:47:25,828 [INFO] Fetching: Luxe Digital
+2026-05-03 21:47:25,995 [INFO]   Got 1 articles from Luxe Digital
+2026-05-03 21:47:25,995 [INFO] Fetching: Business of Fashion
+2026-05-03 21:47:26,962 [INFO]   Got 3 articles from Business of Fashion
+2026-05-03 21:47:26,962 [INFO] Fetching: Gulf News Lifestyle
+2026-05-03 21:47:28,647 [WARNING]   Skipping Gulf News Lifestyle — parse error and no entries: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 21:47:28,648 [INFO] Total articles fetched: 4
+2026-05-03 21:47:29,745 [INFO] Summarising 4 articles with Gemini (gemini-2.0-flash)...
+2026-05-03 21:47:29,745 [INFO]   [1/4] KAAI Pyramid Review: A Work Bag That Handles All Our Needs A...
+2026-05-03 21:47:29,746 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:47:29,977 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 21:47:29,991 [WARNING]   Rate limit hit. Waiting 5s before retry 1/3...
+2026-05-03 21:47:34,992 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:47:35,366 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 21:47:35,368 [WARNING]   Rate limit hit. Waiting 10s before retry 2/3...
+2026-05-03 21:47:45,369 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:47:45,811 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 21:47:45,813 [WARNING]   Rate limit hit. Waiting 15s before retry 3/3...
+2026-05-03 21:49:19,975 [INFO] Running pipeline immediately (--run-now flag)...
+2026-05-03 21:49:19,975 [INFO] ============================================================
+2026-05-03 21:49:19,975 [INFO] McFill Morning Brief — starting run
+2026-05-03 21:49:19,976 [INFO] Time: 2026-05-03 21:49:19
+2026-05-03 21:49:19,976 [INFO] ============================================================
+2026-05-03 21:49:19,985 [INFO] Fetching: Reuters Business
+2026-05-03 21:49:20,081 [WARNING]   Skipping Reuters Business — parse error and no entries: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 21:49:20,081 [INFO] Fetching: Reuters Finance
+2026-05-03 21:49:20,108 [WARNING]   Skipping Reuters Finance — parse error and no entries: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 21:49:20,109 [INFO] Fetching: Yahoo Finance
+2026-05-03 21:49:20,661 [INFO]   Got 0 articles from Yahoo Finance
+2026-05-03 21:49:20,661 [INFO] Fetching: Arab News Business
+2026-05-03 21:49:23,878 [WARNING]   Feed parse warning for Arab News Business: <unknown>:79:0: unclosed token
+2026-05-03 21:49:23,879 [INFO]   Got 3 articles from Arab News Business
+2026-05-03 21:49:23,880 [INFO] Fetching: Gulf News Business
+2026-05-03 21:49:24,163 [WARNING]   Skipping Gulf News Business — parse error and no entries: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 21:49:24,163 [INFO] Fetching: Vogue Arabia
+2026-05-03 21:49:24,525 [WARNING]   Skipping Vogue Arabia — parse error and no entries: <unknown>:2:0: not well-formed (invalid token)
+2026-05-03 21:49:24,527 [INFO] Fetching: Luxe Digital
+2026-05-03 21:49:24,833 [INFO]   Got 1 articles from Luxe Digital
+2026-05-03 21:49:24,833 [INFO] Fetching: Business of Fashion
+2026-05-03 21:49:25,398 [INFO]   Got 3 articles from Business of Fashion
+2026-05-03 21:49:25,399 [INFO] Fetching: Gulf News Lifestyle
+2026-05-03 21:49:25,667 [WARNING]   Skipping Gulf News Lifestyle — parse error and no entries: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 21:49:25,668 [INFO] Total articles fetched: 7
+2026-05-03 21:49:26,698 [INFO] Summarising 7 articles with Gemini (gemini-2.0-flash)...
+2026-05-03 21:49:26,698 [INFO]   [1/7] The best Ramadan decor set-ups on Instagram...
+2026-05-03 21:49:26,699 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:49:26,888 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 21:49:26,893 [WARNING]   Rate limit (429). Waiting 30s before retry 1/3...
+2026-05-03 21:49:56,894 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:49:57,103 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 21:49:57,109 [WARNING]   Rate limit (429). Waiting 60s before retry 2/3...
+2026-05-03 21:50:57,110 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:50:57,306 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 21:50:57,308 [WARNING]   Rate limit (429). Waiting 90s before retry 3/3...
+2026-05-03 21:52:32,310 [INFO]   [2/7] UK banks stop trading Qatari riyals as diplomatic crisis mou...
+2026-05-03 21:52:32,312 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:52:32,562 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 21:52:32,563 [WARNING]   Rate limit (429). Waiting 30s before retry 1/3...
+2026-05-03 21:52:44,854 [INFO] Running pipeline immediately (--run-now flag)...
+2026-05-03 21:52:44,854 [INFO] ============================================================
+2026-05-03 21:52:44,854 [INFO] McFill Morning Brief — starting run
+2026-05-03 21:52:44,855 [INFO] Time: 2026-05-03 21:52:44
+2026-05-03 21:52:44,855 [INFO] ============================================================
+2026-05-03 21:52:44,864 [INFO] Fetching: Reuters Business
+2026-05-03 21:52:44,939 [WARNING]   Skipping Reuters Business — parse error and no entries: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 21:52:44,940 [INFO] Fetching: Reuters Finance
+2026-05-03 21:52:44,978 [WARNING]   Skipping Reuters Finance — parse error and no entries: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 21:52:44,978 [INFO] Fetching: Yahoo Finance
+2026-05-03 21:52:45,152 [INFO]   Got 0 articles from Yahoo Finance
+2026-05-03 21:52:45,153 [INFO] Fetching: Arab News Business
+2026-05-03 21:52:45,290 [WARNING]   Feed parse warning for Arab News Business: <unknown>:79:0: unclosed token
+2026-05-03 21:52:45,290 [INFO]   Got 3 articles from Arab News Business
+2026-05-03 21:52:45,290 [INFO] Fetching: Gulf News Business
+2026-05-03 21:52:45,882 [WARNING]   Skipping Gulf News Business — parse error and no entries: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 21:52:45,882 [INFO] Fetching: Vogue Arabia
+2026-05-03 21:52:46,198 [WARNING]   Skipping Vogue Arabia — parse error and no entries: <unknown>:2:0: not well-formed (invalid token)
+2026-05-03 21:52:46,200 [INFO] Fetching: Luxe Digital
+2026-05-03 21:52:46,349 [INFO]   Got 1 articles from Luxe Digital
+2026-05-03 21:52:46,350 [INFO] Fetching: Business of Fashion
+2026-05-03 21:52:46,947 [INFO]   Got 3 articles from Business of Fashion
+2026-05-03 21:52:46,948 [INFO] Fetching: Gulf News Lifestyle
+2026-05-03 21:52:47,234 [WARNING]   Skipping Gulf News Lifestyle — parse error and no entries: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 21:52:47,234 [INFO] Total articles fetched: 7
+2026-05-03 21:52:48,315 [INFO] Summarising 7 articles with Gemini (gemini-1.5-flash)...
+2026-05-03 21:52:48,315 [INFO]   [1/7] The best Ramadan decor set-ups on Instagram...
+2026-05-03 21:52:48,316 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:52:48,658 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 21:52:48,662 [ERROR]   Model 'gemini-1.5-flash' returned 404 (Not Found). Fix the model name in config.yaml. Valid options: gemini-2.0-flash, gemini-1.5-flash, gemini-1.5-pro
+2026-05-03 21:52:48,662 [ERROR]   Aborting summarisation — model name is invalid. Fix config.yaml.
+2026-05-03 21:52:48,662 [WARNING] QA failed — not sending email. Issues: ['Too many failed summaries: 7/7', 'No Finance articles in digest', 'No Luxury articles in digest']
+2026-05-03 21:52:48,683 [INFO] Run record saved to run_history.json
+2026-05-03 21:52:48,686 [INFO] Run complete.
+2026-05-03 21:53:40,198 [INFO] Running pipeline immediately (--run-now flag)...
+2026-05-03 21:53:40,198 [INFO] ============================================================
+2026-05-03 21:53:40,199 [INFO] McFill Morning Brief — starting run
+2026-05-03 21:53:40,200 [INFO] Time: 2026-05-03 21:53:40
+2026-05-03 21:53:40,200 [INFO] ============================================================
+2026-05-03 21:53:40,237 [INFO] Fetching: Reuters Business
+2026-05-03 21:53:40,279 [WARNING]   Skipping Reuters Business — parse error and no entries: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 21:53:40,280 [INFO] Fetching: Reuters Finance
+2026-05-03 21:53:40,306 [WARNING]   Skipping Reuters Finance — parse error and no entries: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-03 21:53:40,306 [INFO] Fetching: Yahoo Finance
+2026-05-03 21:53:40,638 [INFO]   Got 0 articles from Yahoo Finance
+2026-05-03 21:53:40,645 [INFO] Fetching: Arab News Business
+2026-05-03 21:53:40,754 [WARNING]   Feed parse warning for Arab News Business: <unknown>:79:0: unclosed token
+2026-05-03 21:53:40,754 [INFO]   Got 3 articles from Arab News Business
+2026-05-03 21:53:40,755 [INFO] Fetching: Gulf News Business
+2026-05-03 21:53:41,004 [WARNING]   Skipping Gulf News Business — parse error and no entries: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 21:53:41,004 [INFO] Fetching: Vogue Arabia
+2026-05-03 21:53:41,552 [WARNING]   Skipping Vogue Arabia — parse error and no entries: <unknown>:2:0: not well-formed (invalid token)
+2026-05-03 21:53:41,553 [INFO] Fetching: Luxe Digital
+2026-05-03 21:53:41,752 [INFO]   Got 1 articles from Luxe Digital
+2026-05-03 21:53:41,752 [INFO] Fetching: Business of Fashion
+2026-05-03 21:53:42,170 [INFO]   Got 3 articles from Business of Fashion
+2026-05-03 21:53:42,171 [INFO] Fetching: Gulf News Lifestyle
+2026-05-03 21:53:42,407 [WARNING]   Skipping Gulf News Lifestyle — parse error and no entries: <unknown>:6:84: not well-formed (invalid token)
+2026-05-03 21:53:42,407 [INFO] Total articles fetched: 7
+2026-05-03 21:53:43,497 [INFO] Summarising 7 articles with Gemini (gemini-2.0-flash)...
+2026-05-03 21:53:43,497 [INFO]   [1/7] The best Ramadan decor set-ups on Instagram...
+2026-05-03 21:53:43,498 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:53:43,701 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 21:53:43,706 [WARNING]   Rate limit (429). Waiting 30s before retry 1/3...
+2026-05-03 21:54:13,707 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:54:13,962 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 21:54:13,964 [WARNING]   Rate limit (429). Waiting 60s before retry 2/3...
+2026-05-03 21:55:13,965 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:55:14,349 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 21:55:14,352 [WARNING]   Rate limit (429). Waiting 90s before retry 3/3...
+2026-05-03 21:56:49,356 [INFO]   [2/7] UK banks stop trading Qatari riyals as diplomatic crisis mou...
+2026-05-03 21:56:49,358 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:56:49,676 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 21:56:49,678 [WARNING]   Rate limit (429). Waiting 30s before retry 1/3...
+2026-05-03 21:57:19,680 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:57:20,235 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 21:57:20,291 [WARNING]   Rate limit (429). Waiting 60s before retry 2/3...
+2026-05-03 21:58:20,293 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:58:20,796 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 21:58:20,799 [WARNING]   Rate limit (429). Waiting 90s before retry 3/3...
+2026-05-03 21:59:55,800 [INFO]   [3/7] 4.8% FDI drop in Saudi Arabia last year...
+2026-05-03 21:59:55,801 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 21:59:56,010 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 21:59:56,011 [WARNING]   Rate limit (429). Waiting 30s before retry 1/3...
+2026-05-03 22:00:26,012 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:00:26,207 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-05-03 22:00:26,209 [WARNING]   Rate limit (429). Waiting 60s before retry 2/3...
+2026-05-03 22:01:03,753 [INFO] Running pipeline immediately (--run-now)...
+2026-05-03 22:01:03,753 [INFO] ============================================================
+2026-05-03 22:01:03,754 [INFO] McFill Morning Brief — starting run
+2026-05-03 22:01:03,754 [INFO] Time: 2026-05-03 22:01:03
+2026-05-03 22:01:03,754 [INFO] ============================================================
+2026-05-03 22:01:03,799 [INFO] Fetching: Arab News Business
+2026-05-03 22:01:03,911 [WARNING]   Skipping Arab News Business — no entries: <unknown>:2:1326: not well-formed (invalid token)
+2026-05-03 22:01:03,913 [INFO] Fetching: BBC Business
+2026-05-03 22:01:04,342 [INFO]   Got 0 articles from BBC Business
+2026-05-03 22:01:04,342 [INFO] Fetching: CNBC Finance
+2026-05-03 22:01:05,283 [INFO]   Got 0 articles from CNBC Finance
+2026-05-03 22:01:05,284 [INFO] Fetching: Bloomberg Markets
+2026-05-03 22:01:06,100 [INFO]   Got 3 articles from Bloomberg Markets
+2026-05-03 22:01:06,101 [INFO] Fetching: Investing.com News
+2026-05-03 22:01:07,003 [INFO]   Got 0 articles from Investing.com News
+2026-05-03 22:01:07,003 [INFO] Fetching: Business of Fashion
+2026-05-03 22:01:08,205 [INFO]   Got 3 articles from Business of Fashion
+2026-05-03 22:01:08,205 [INFO] Fetching: Luxe Digital
+2026-05-03 22:01:08,318 [INFO]   Got 1 articles from Luxe Digital
+2026-05-03 22:01:08,318 [INFO] Fetching: Robb Report
+2026-05-03 22:01:09,071 [INFO]   Got 0 articles from Robb Report
+2026-05-03 22:01:09,071 [INFO] Fetching: The Guardian Fashion
+2026-05-03 22:01:09,419 [INFO]   Got 3 articles from The Guardian Fashion
+2026-05-03 22:01:09,420 [INFO] Total articles fetched: 10
+2026-05-03 22:01:10,502 [INFO] Summarising 10 articles with gemini-1.5-flash (4.3s between requests to stay under 14 RPM limit)...
+2026-05-03 22:01:10,502 [INFO]   [1/10] Rep. Kiley: Iran Cannot Be Allowed To Get A Nuclear Weapon...
+2026-05-03 22:01:14,791 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:01:14,991 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-05-03 22:01:14,996 [ERROR]   Model 'gemini-1.5-flash' not found (404). Fix the model in config.yaml. Valid: gemini-1.5-flash | gemini-1.5-pro | gemini-2.0-flash
+2026-05-03 22:01:14,996 [ERROR]   Aborting summarisation — fix model name in config.yaml.
+2026-05-03 22:01:14,997 [WARNING] QA failed — email NOT sent. Issues: ['Too many failed summaries: 10/10', 'No Finance articles with valid summaries', 'No Luxury articles with valid summaries']
+2026-05-03 22:01:15,030 [INFO]   Run record saved to run_history.json
+2026-05-03 22:01:15,031 [INFO] Run complete.
+2026-05-03 22:04:29,937 [INFO] Running pipeline immediately (--run-now)...
+2026-05-03 22:04:29,937 [INFO] ============================================================
+2026-05-03 22:04:29,938 [INFO] McFill Morning Brief — starting run
+2026-05-03 22:04:29,938 [INFO] Time: 2026-05-03 22:04:29
+2026-05-03 22:04:29,939 [INFO] ============================================================
+2026-05-03 22:04:29,970 [INFO] Fetching: Arab News Business
+2026-05-03 22:04:30,127 [INFO]   Got 3 articles from Arab News Business
+2026-05-03 22:04:30,128 [INFO] Fetching: BBC Business
+2026-05-03 22:04:30,626 [INFO]   Got 0 articles from BBC Business
+2026-05-03 22:04:30,632 [INFO] Fetching: CNBC Finance
+2026-05-03 22:04:31,334 [INFO]   Got 0 articles from CNBC Finance
+2026-05-03 22:04:31,334 [INFO] Fetching: Bloomberg Markets
+2026-05-03 22:04:32,199 [INFO]   Got 3 articles from Bloomberg Markets
+2026-05-03 22:04:32,199 [INFO] Fetching: Investing.com News
+2026-05-03 22:04:32,602 [INFO]   Got 0 articles from Investing.com News
+2026-05-03 22:04:32,605 [INFO] Fetching: Business of Fashion
+2026-05-03 22:04:33,164 [INFO]   Got 3 articles from Business of Fashion
+2026-05-03 22:04:33,164 [INFO] Fetching: Luxe Digital
+2026-05-03 22:04:33,326 [INFO]   Got 1 articles from Luxe Digital
+2026-05-03 22:04:33,327 [INFO] Fetching: Robb Report
+2026-05-03 22:04:33,494 [INFO]   Got 0 articles from Robb Report
+2026-05-03 22:04:33,495 [INFO] Fetching: The Guardian Fashion
+2026-05-03 22:04:33,659 [INFO]   Got 3 articles from The Guardian Fashion
+2026-05-03 22:04:33,659 [INFO] Total articles fetched: 13
+2026-05-03 22:04:34,752 [INFO] Summarising 13 articles with gemini-2.5-flash (6.7s between requests to stay under 9 RPM limit)...
+2026-05-03 22:04:34,752 [INFO]   [1/13] The best Ramadan decor set-ups on Instagram...
+2026-05-03 22:04:41,420 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:04:45,108 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-03 22:04:45,113 [INFO]   [2/13] UK banks stop trading Qatari riyals as diplomatic crisis mounts...
+2026-05-03 22:04:51,781 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:04:55,426 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-03 22:04:55,433 [INFO]   [3/13] 4.8% FDI drop in Saudi Arabia last year...
+2026-05-03 22:05:02,100 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:05:09,408 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-03 22:05:09,412 [INFO]   [4/13] Rep. Kiley: Iran Cannot Be Allowed To Get A Nuclear Weapon...
+2026-05-03 22:05:16,079 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:05:21,049 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-03 22:05:21,053 [INFO]   [5/13] OPEC+ Agrees Symbolic Quota Hike as UAE Touts Oil Investment...
+2026-05-03 22:05:27,720 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:05:31,299 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-03 22:05:31,302 [INFO]   [6/13] FCC Commissioner Gomez Condemns Early ABC License Review as First...
+2026-05-03 22:05:37,969 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:05:41,223 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-03 22:05:41,227 [INFO]   [7/13] At the Met Gala, It’s All Eyes on the Bezoses...
+2026-05-03 22:05:47,894 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:05:52,124 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-03 22:05:52,128 [INFO]   [8/13] Coty’s Perfume Business Takes Another Knock With David Beckham Fr...
+2026-05-03 22:05:58,796 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:06:01,251 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-03 22:06:01,268 [INFO]   [9/13] How Chanel Became the Hottest Brand in Fashion...
+2026-05-03 22:06:07,940 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:06:12,557 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-03 22:06:12,561 [INFO]   [10/13] KAAI Pyramid Review: A Work Bag That Handles All Our Needs And De...
+2026-05-03 22:06:19,229 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:06:22,775 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-03 22:06:22,778 [INFO]   [11/13] The Devil Wears Prada 2 review – a sequel? For spring? Groundbrea...
+2026-05-03 22:06:29,446 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:06:36,437 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-03 22:06:36,440 [INFO]   [12/13] Slip into summer: what to wear with a return-to-the-90s ‘It’ dres...
+2026-05-03 22:06:43,107 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:06:47,486 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-03 22:06:47,490 [INFO]   [13/13] Jess Cartner-Morley on fashion: how to style leather trousers...
+2026-05-03 22:06:54,158 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-03 22:06:59,457 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-03 22:06:59,466 [INFO] QA passed — building and sending email...
+2026-05-03 22:07:03,240 [INFO]   Run record saved to run_history.json
+2026-05-03 22:07:03,240 [INFO] Run complete.
